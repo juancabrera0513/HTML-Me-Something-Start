@@ -1,1 +1,19 @@
 /* Write your CSS here! */
+
+audio {
+    width: 300px;
+    height: auto;
+    margin: 20px auto; 
+    display: block; 
+}
+
+.audioContainer {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.content {
+    margin-top: 20px;
+    text-align: center;
+}
