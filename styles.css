@@ -4,7 +4,7 @@ body{
     margin: 8px;
     display: block;
     text-align: center;
-    background-image: url("./images/backgroundPoke.jpg")
+    background-image:url("./images/backgroundPoke.jpg")
 }
 
 #logo{
