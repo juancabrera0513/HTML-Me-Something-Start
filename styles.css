@@ -1,5 +1,45 @@
 /* Write your CSS here! */
 
+body{
+    margin: 8px;
+    display: block;
+    text-align: center;
+    background-image: url("./images/backgroundPoke.jpg")
+}
+
+#logo{
+    width: 50%;
+}
+
+li{
+    align-items: center;
+    justify-content: center;
+}
+
+.question{
+    font-weight: bold;
+    font-size: larger;
+}
+#mainHeading{
+    color: red;
+    font-size: large;
+    font-weight: bold;
+}
+
+.funParagraph{
+    color: green;
+
+}
+
+img{
+    display: block;
+    height: auto;
+    margin: 10px auto;
+    width: 100%;
+    max-width: 100%;
+}
+
+
 audio {
     width: 300px;
     height: auto;
@@ -16,4 +56,14 @@ audio {
 .content {
     margin-top: 20px;
     text-align: center;
+}
+
+
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+        gap: 10px; 
+    align-items: center; 
 }
