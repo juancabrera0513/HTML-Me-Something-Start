@@ -1,69 +1,78 @@
 /* Write your CSS here! */
 
-body{
-    margin: 8px;
-    display: block;
-    text-align: center;
-    background-image:url("./images/backgroundPoke.jpg")
+body {
+  margin: 8px;
+  display: block;
+  text-align: center;
+  background-image: url("./images/backgroundPoke.jpg");
 }
 
-#logo{
-    width: 50%;
+#logo {
+  width: 50%;
 }
 
-li{
-    align-items: center;
-    justify-content: center;
+li {
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
 }
 
-.question{
-    font-weight: bold;
-    font-size: larger;
+.question {
+  font-weight: bold;
+  font-size: 25px;
+  padding-bottom: 0;
+  margin-bottom: 0;
 }
-#mainHeading{
-    color: red;
-    font-size: large;
-    font-weight: bold;
-}
-
-.funParagraph{
-    color: green;
-
+#mainHeading {
+  color: red;
+  font-size: 50px;
+  font-weight: bold;
 }
 
-img{
-    display: block;
-    height: auto;
-    margin: 10px auto;
-    width: 100%;
-    max-width: 100%;
+.funParagraph {
+  color: green;
+  text-decoration: underline;
+  background-color: wheat;
 }
 
+img {
+  display: block;
+  height: auto;
+  margin: 10px auto;
+  width: 100%;
+  max-width: 100%;
+}
 
 audio {
-    width: 300px;
-    height: auto;
-    margin: 20px auto; 
-    display: block; 
+  width: 300px;
+  margin: 20px auto;
+  display: block;
 }
 
-.audioContainer {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
 }
 
 .content {
-    margin-top: 20px;
-    text-align: center;
+  margin-top: 20px;
+  text-align: center;
+}
+
+ol {
+  list-style-type: disc;
+  padding-left: 0;
+  justify-content: center;
+  list-style-position: inside;
 }
 
 
 
 .gallery {
-    display: flex;
-    flex-wrap: wrap; 
-    justify-content: center;
-        gap: 10px; 
-    align-items: center; 
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  align-items: center;
 }
